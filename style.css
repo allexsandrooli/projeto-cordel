@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: sriracha;
+    background-attachment: fixed;
+
+}
+
+div{
+    font-size: 3vw;
+    line-height: 2,5em;
+}
+header{
+    background-color: black;
+    font-family:passion one;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    height: 300px;
+    padding-top: 50px;
+}
+header  p{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+header  a{
+    
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.normal{
+    background-attachment: fixed;
+    padding: 70px 0px 100px 30px; 
+}
+
+
+.image{
+    background-image:url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    padding: 70px 0px 100px 30px;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+}
+.image >p{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 55vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    padding: 15px;
+}
+
+.segunda-image{
+    background-image:url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 70px 0px 100px 30px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.63);
+}
+
+.segunda-image >p{
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 55vh;
+    padding: 15px;
+}
+
+footer{
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    height:60px;
+    min-height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    padding: 10px;
+}
